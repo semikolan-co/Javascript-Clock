@@ -23,7 +23,9 @@ function Realtime(){
     minutes = minutes < 10 ? "0" + minutes : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
-    let currentTime = hours + ":" + minutes + ":" + seconds + ampm;
+    
+
+    let currentTime = hours + ":" + minutes + ":" + seconds + " " + ampm;
 
     document.getElementById("clock").innerHTML  = currentTime;
     
